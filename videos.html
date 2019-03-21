@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harly</title>
+  <link rel="stylesheet" href="style.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    #menu-wrapper {
+      background: #6f42c18c;
+      position: sticky;
+      width: 100%;
+      z-index: 2;
+      top: 0;
+    }
+    .image-gallery {
+      object-fit: contain;
+      max-width: 500px;
+      max-height: 300px;
+      margin: 0 40px;
+    }
+    .image-2-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu-wrapper">
+    <ul class="nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="activity.html" >Activity</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active">Videos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" >Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div class="image-2-wrapper">
+      <iframe class="image-gallery" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <iframe class="image-gallery" width="420" height="315" src="https://www.youtube.com/embed/ehVX4pd0bXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div style="display: flex;justify-content: center;margin: 24px;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EqYBXFYYsxc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="image-2-wrapper">
+      <iframe class="image-gallery" width="420" height="315" src="https://www.youtube.com/embed/hKKfRifeLK0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="image-gallery" width="420" height="315" src="https://www.youtube.com/embed/yAJnHGoo44E?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+  </div>
+</body>
+</html>
